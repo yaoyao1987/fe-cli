@@ -1,0 +1,31 @@
+@import "./fn";
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.6;
+  font-family: @fontDefault;
+  font-size: @fontSize;
+}
+
+body, html {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a img {
+  border: 0;
+}
+
+a {
+  color: #303030;
+  text-decoration: none;
+  .setTapColor();
+}

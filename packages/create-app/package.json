@@ -1,0 +1,22 @@
+{
+  "name": "@fe-cli/create-app",
+  "version": "0.0.0",
+  "author": "yaoyao1987 <ly.yao@shunwang.com>",
+  "bin": {
+    "ccva": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "enquirer": "^2.3.6",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.5"
+  }
+}

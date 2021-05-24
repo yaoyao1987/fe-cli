@@ -1,0 +1,14 @@
+{
+  "name": "fe-cli",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yaoyao1987 <ly.yao@shunwang.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

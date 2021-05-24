@@ -1,0 +1,41 @@
+@import "../../assets/styles/variables.less";
+.sider {
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.25);
+  min-height: 100vh;
+  .menu-logo {
+    height: 64px;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+
+    &.hide {
+      a {
+        justify-content: center;
+
+        div {
+          overflow: hidden;
+          opacity: 0;
+          width: 0;
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+      img {
+        width: 40px;
+        flex: none;
+        margin-left: 12px;
+      }
+
+      div {
+        color: @layout-sider-logo-title-light;
+        width: 100%;
+        font-size: 22px;
+        white-space: nowrap;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
