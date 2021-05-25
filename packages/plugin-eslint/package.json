@@ -1,0 +1,43 @@
+{
+  "name": "@fe-cli/plugin-eslint",
+  "version": "0.0.1",
+  "author": "yaoyao1987 <ly.yao@shunwang.com>",
+  "main": "bin/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "sslint": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaoyao1987/plugin-eslint.git",
+    "directory": "packages/plugin-eslint"
+  },
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "cross-spawn": "^7.0.3",
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {
+    "@fe-cli/eslint-config-fe": "^0.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4",
+    "vue-eslint-parser": "^7.6.0"
+  }
+}

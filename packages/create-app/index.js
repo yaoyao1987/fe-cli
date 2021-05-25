@@ -200,7 +200,6 @@ async function getValidPackageName(projectName) {
       .replace(/^[._]/, '')
       .replace(/[^a-z0-9-~]+/g, '-')
 
-    console.log(`suggestedPackageName`, suggestedPackageName)
     const { inputPackageName } = await prompt({
       type: 'input',
       name: 'inputPackageName',

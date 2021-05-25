@@ -1,5 +1,5 @@
 {
-  "name": "fe-cli",
+  "name": "@yaoyao1987/fe-cli",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -8,7 +8,31 @@
   "main": "index.js",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "license": "MIT",
+  "scripts": {
+    "release": "yarn --pure-lockfile && yarn clean && node scripts/release.js"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "chalk": "^4.1.1",
+    "enquirer": "^2.3.6",
+    "execa": "^5.0.0",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "lint-staged": "^11.0.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ],
+    "*.ts": [
+      "eslint",
+      "prettier --parser=typescript --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ]
   }
 }
