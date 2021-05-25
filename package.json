@@ -3,6 +3,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",

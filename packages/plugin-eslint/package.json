@@ -16,6 +16,9 @@
     "directory": "packages/plugin-eslint"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "format": "prettier --write .",
     "test": "echo \"Error: run tests from root\" && exit 1"

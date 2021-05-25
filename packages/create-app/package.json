@@ -8,6 +8,9 @@
     "directory": "packages/create-app"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "create-app": "index.js",
     "ccva": "index.js"

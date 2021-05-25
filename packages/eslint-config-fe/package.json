@@ -8,6 +8,9 @@
     "directory": "packages/eslint-config-fe"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "files": [
     "lib"
