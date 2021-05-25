@@ -18,5 +18,5 @@
   "scripts": {
     "release": "node ../../../../scripts/release.js"
   },
-  "gitHead": "5c419408ce4294af334148e95271c565c5501b20"
+  "gitHead": "17d473bdf3085574bfcd2fb214d7bb31f84638eb"
 }

@@ -1,9 +1,9 @@
 const path = require('path');
 
-const configPkgName = 'sw-eslint-config-sw';
+const configPkgName = 'eslint-config-sw';
 /**
  * 导出 eslint 的路径
- * like: extends: 'sw-eslint-config-sw/typescript/vue'
+ * like: extends: 'eslint-config-sw/typescript/vue'
  */
 const configPkgPath = {
   'Javascript': '',
@@ -15,7 +15,7 @@ const configPkgPath = {
 };
 
 const needDeps = {
-  'Javascript': ['eslint', 'babel-eslint', 'sw-eslint-config-sw'],
+  'Javascript': ['eslint', 'babel-eslint', 'eslint-config-sw'],
   'Typescript': [
     'typescript',
     '@typescript-eslint/eslint-plugin',
