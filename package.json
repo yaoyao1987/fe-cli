@@ -6,6 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaoyao1987/fe-cli.git"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",

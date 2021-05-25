@@ -4,6 +4,10 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
+    "publish": {
+      "verifyAccess": false,
+      "verifyRegistry": false
+    },
     "bootstrap": {
       "npmClientArgs": ["--hoist"]
     }
