@@ -1,6 +1,6 @@
 {
   "name": "@fe-cli/eslint-config-fe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
     "type": "git",
