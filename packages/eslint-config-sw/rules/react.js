@@ -1,29 +1,11 @@
 /**
- * 本文件的规则由 @typescript-eslint/eslint-plugin 提供，使用 @typescript-eslint/parser 作为 parser
- * 需要将 @typescript-eslint/eslint-plugin 和 @typescript-eslint/parser 安装为项目依赖
+ * 本文件的规则由 eslint-plugin-react 和 eslint-plugin-react-hooks 提供
+ * 需要将 eslint-plugin-react 和 eslint-plugin-react-hooks 安装为项目依赖
  */
 
-module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  root: true,
-  parser: '@typescript-eslint/parser',
-  plugins: ['react', 'react-hooks', '@typescript-eslint'],
+ module.exports = {
+  plugins: ['react', 'react-hooks'],
   rules: {
-    // 禁止使用 any
-    '@typescript-eslint/no-explicit-any': 'warn',
-    // 禁止出现空的 interface
-    '@typescript-eslint/no-empty-interface': 'warn',
     // prop 值为 true 时，可以省略它的值
     'react/jsx-boolean-value': ['error', 'never', { always: [] }],
     // 不要使用未声明的组件
@@ -59,32 +41,15 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        'no-undef': 'off',
-        'import/no-unresolved': 'off',
-      },
-    },
-  ],
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.d.ts'],
-    },
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.ts', '.tsx', '.json'],
+        extensions: ['.js', '.jsx', '.json'],
       },
     },
-    'import/extensions': ['.js', '.ts', '.mjs'],
-  },
-  react: {
-    pragma: 'React',
-    version: 'detect',
-  },
-  parserOptions: {
-    project: './tsconfig.json',
-    createDefaultProgram: true
+    react: {
+      pragma: 'React',
+      version: 'detect',
+    },
   },
 };

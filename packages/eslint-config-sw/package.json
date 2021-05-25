@@ -1,11 +1,11 @@
 {
-  "name": "sw-eslint-config-fe",
+  "name": "eslint-config-sw",
   "version": "1.0.2",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaoyao1987/fe-cli.git",
-    "directory": "packages/eslint-config-fe"
+    "directory": "packages/eslint-config-sw"
   },
   "license": "MIT",
   "publishConfig": {

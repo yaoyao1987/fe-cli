@@ -1,6 +1,6 @@
 # fe-cli
 
-参考：
+参考：  
 [vite](https://github.com/vitejs/vite)  
 [axb-lint](https://github.com/axuebin/axb-lint)  
 [eslint-config-me](https://github.com/LucaPeng/eslint-config-mfe)

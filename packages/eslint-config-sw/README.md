@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const pluginEslint = require('sw-eslint-config-sw');
+const eslintConfigFe = require('sw-eslint-config-sw');
 
 // TODO: DEMONSTRATE API
 ```

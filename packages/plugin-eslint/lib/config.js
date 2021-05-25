@@ -1,22 +1,21 @@
 const path = require('path');
-const fs = require('fs');
-const configTemplateDir = './template/';
 
+const configPkgName = 'sw-eslint-config-sw';
 /**
  * 导出 eslint 的路径
- * like: extends: 'eslint/typescript/vue'
+ * like: extends: 'sw-eslint-config-sw/typescript/vue'
  */
 const configPkgPath = {
   'Javascript': '',
   'Javascript/Vue': 'vue',
   'Javascript/React': 'react',
   'Typescript': 'typescript',
-  'Typescript/Vue': 'typescript-vue',
-  'Typescript/React': 'typescript-react',
+  'Typescript/Vue': 'typescript/vue',
+  'Typescript/React': 'typescript/react',
 };
 
 const needDeps = {
-  'Javascript': ['eslint', 'babel-eslint'],
+  'Javascript': ['eslint', 'babel-eslint', 'sw-eslint-config-sw'],
   'Typescript': [
     'typescript',
     '@typescript-eslint/eslint-plugin',
@@ -26,12 +25,11 @@ const needDeps = {
   'Vue': ['eslint-plugin-vue', 'vue-eslint-parser']
 }
 
-const eslintConfig = (type) => {
-  return fs.readFileSync(require.resolve(`${configTemplateDir}eslintrc.${configPkgPath[type]}.js`), 'utf-8')
-}
+const eslintrcConfig = (type) => ({
+  extends: path.join(configPkgName, configPkgPath[type]),
+});
 
 module.exports = {
-  configPkgPath,
-  eslintConfig,
+  eslintrcConfig,
   needDeps
 }

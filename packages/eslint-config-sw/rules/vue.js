@@ -4,21 +4,9 @@
  */
 
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-    parser: 'babel-eslint'
-  },
-  root: true,
   parser: 'vue-eslint-parser',
   plugins: ['vue'],
   rules: {
-    /** Vue */
     // 组件的 data 必须是一个函数
     'vue/no-shared-component-data': 'error',
     // 校验组件的 Prop 默认值类型

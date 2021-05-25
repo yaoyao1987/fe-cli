@@ -4,19 +4,6 @@
  */
 
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  root: true,
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
@@ -25,7 +12,6 @@ module.exports = {
     // 禁止出现空的 interface
     '@typescript-eslint/no-empty-interface': 'warn',
   },
-  // 覆盖掉 ESLint 的规则
   overrides: [
     {
       files: ['*.ts', '*.tsx'],

@@ -1,20 +1,4 @@
 module.exports = {
-  /** 环境 */
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
-  parser: 'babel-eslint',
-  /** 解析器配置 */
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  root: true,
   rules: {
     // 禁止使用 var 来声明
     'no-var': 'error',

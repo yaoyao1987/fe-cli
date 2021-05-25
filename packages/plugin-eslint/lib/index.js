@@ -3,10 +3,8 @@ const fs = require('fs');
 const spawn = require('cross-spawn');
 const { green } = require('chalk');
 
-const cwd = process.cwd();
-
 const { askForLanguage, askForFramework } = require('./ask');
-const { eslintConfig, configPkgPath, needDeps } = require('./config');
+const { eslintrcConfig, needDeps } = require('./config');
 
 module.exports = async () => {
   const language = await askForLanguage();
@@ -17,9 +15,14 @@ module.exports = async () => {
     type += `/${framework}`
   }
 
+  // 写 .eslintrc.js 文件
   fs.writeFileSync(
     path.join(process.cwd(), '.eslintrc.js'),
-    eslintConfig(type)
+    `module.exports = ${JSON.stringify(
+      eslintrcConfig(type),
+      null,
+      2
+    )}`
   );
 
   let deps = needDeps.Javascript;
