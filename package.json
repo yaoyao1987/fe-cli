@@ -3,9 +3,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yaoyao1987/fe-cli.git"
@@ -15,7 +12,11 @@
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "license": "MIT",
   "scripts": {
-    "release": "yarn --pure-lockfile && yarn clean && node scripts/release.js"
+    "build": "lerna run build",
+		"publish": "lerna publish",
+		"version:patch": "lerna version patch",
+		"version:major": "lerna version major",
+		"version:minor": "lerna version minor"
   },
   "devDependencies": {
     "chalk": "^4.1.1",
