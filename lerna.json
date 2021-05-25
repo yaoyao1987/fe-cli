@@ -6,7 +6,8 @@
   "command": {
     "publish": {
       "verifyAccess": false,
-      "verifyRegistry": false
+      "verifyRegistry": false,
+      "registry": "https://registry.npmjs.org/"
     },
     "bootstrap": {
       "npmClientArgs": ["--hoist"]
