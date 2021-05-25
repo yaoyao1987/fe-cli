@@ -15,8 +15,5 @@
   "files": [
     "lib"
   ],
-  "scripts": {
-    "release": "node ../../../../scripts/release.js"
-  },
   "gitHead": "17d473bdf3085574bfcd2fb214d7bb31f84638eb"
 }

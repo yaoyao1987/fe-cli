@@ -1,11 +1,1 @@
-# `sw-eslint-config-sw`
-
-> TODO: description
-
-## Usage
-
-```
-const pluginEslint = require('sw-eslint-config-sw');
-
-// TODO: DEMONSTRATE API
-```
+# `sw-plugin-eslint`
