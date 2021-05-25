@@ -1,11 +1,11 @@
-# `@yaoyao1987/eslint-config-fe`
+# `sw-eslint-config-fe`
 
 > TODO: description
 
 ## Usage
 
 ```
-const eslintConfigFe = require('@yaoyao1987/eslint-config-fe');
+const eslintConfigFe = require('sw-eslint-config-fe');
 
 // TODO: DEMONSTRATE API
 ```

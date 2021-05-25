@@ -1,11 +1,19 @@
-# `create-app`
+# `create-sw-app`
 
-> TODO: description
-
-## Usage
+搭建项目
 
 ```
-const createApp = require('create-app');
+# npm 7+, extra double-dash is needed:
+npm init sw-app my-vue-app -- --template vue
 
-// TODO: DEMONSTRATE API
+# yarn
+yarn create sw-app my-vue-app --template vue
 ```
+
+当前支持的模板预设包括:
+
+- `vue-h5`
+- `vue-pc-ts`
+- `vue-ssr-ts`
+- `react-pc-ts`
+- `react-admin-ts`
