@@ -1,5 +1,5 @@
 {
-  "name": "@yaoyao1987/plugin-eslint",
+  "name": "sw-plugin-eslint",
   "version": "1.0.1",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "main": "bin/index.js",
@@ -42,5 +42,5 @@
     "typescript": "^4.2.4",
     "vue-eslint-parser": "^7.6.0"
   },
-  "gitHead": "153dceb0488e0ad18d23bba52658b8f2277b44c5"
+  "gitHead": "05814d4255d38909895db4323c07dd6a58a41de6"
 }

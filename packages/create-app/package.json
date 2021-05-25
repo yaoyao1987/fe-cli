@@ -1,5 +1,5 @@
 {
-  "name": "@yaoyao1987/create-app",
+  "name": "sw-create-app",
   "version": "1.0.1",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
@@ -26,5 +26,5 @@
     "enquirer": "^2.3.6",
     "minimist": "^1.2.5"
   },
-  "gitHead": "153dceb0488e0ad18d23bba52658b8f2277b44c5"
+  "gitHead": "05814d4255d38909895db4323c07dd6a58a41de6"
 }

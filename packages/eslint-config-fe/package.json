@@ -1,5 +1,5 @@
 {
-  "name": "@yaoyao1987/eslint-config-fe",
+  "name": "sw-eslint-config-fe",
   "version": "1.0.1",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
@@ -18,5 +18,5 @@
   "scripts": {
     "release": "node ../../../../scripts/release.js"
   },
-  "gitHead": "153dceb0488e0ad18d23bba52658b8f2277b44c5"
+  "gitHead": "05814d4255d38909895db4323c07dd6a58a41de6"
 }
