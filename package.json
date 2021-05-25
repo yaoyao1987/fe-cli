@@ -1,17 +1,10 @@
 {
-  "name": "@yaoyao1987/fe-cli",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yaoyao1987/fe-cli.git"
-  },
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "yaoyao1987 <ly.yao@shunwang.com>",
-  "license": "MIT",
   "scripts": {
+    "changelog": "lerna-changelog",
     "build": "lerna run build",
 		"publish": "lerna publish",
 		"version:patch": "lerna version patch",

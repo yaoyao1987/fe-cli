@@ -4,7 +4,7 @@
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaoyao1987/create-app.git",
+    "url": "https://github.com/yaoyao1987/fe-cli.git",
     "directory": "packages/create-app"
   },
   "license": "MIT",
@@ -26,5 +26,5 @@
     "enquirer": "^2.3.6",
     "minimist": "^1.2.5"
   },
-  "gitHead": "d216078acdf49c04d0867c35590bd1546275abc2"
+  "gitHead": "153dceb0488e0ad18d23bba52658b8f2277b44c5"
 }
