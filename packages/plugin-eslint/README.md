@@ -1,11 +1,11 @@
-# `@fe-cli/plugin-eslint`
+# `@yaoyao1987/plugin-eslint`
 
 > TODO: description
 
 ## Usage
 
 ```
-const pluginEslint = require('@fe-cli/plugin-eslint');
+const pluginEslint = require('@yaoyao1987/plugin-eslint');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,6 +1,5 @@
 {
   "name": "@yaoyao1987/fe-cli",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],

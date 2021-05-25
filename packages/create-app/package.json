@@ -1,5 +1,5 @@
 {
-  "name": "@fe-cli/create-app",
+  "name": "@yaoyao1987/create-app",
   "version": "1.0.0",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
@@ -22,5 +22,6 @@
     "chalk": "^4.1.1",
     "enquirer": "^2.3.6",
     "minimist": "^1.2.5"
-  }
+  },
+  "gitHead": "d216078acdf49c04d0867c35590bd1546275abc2"
 }

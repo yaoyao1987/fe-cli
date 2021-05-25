@@ -12,7 +12,7 @@ const pkgPath = path.resolve(pkgDir, 'package.json')
  * @type {{ name: string, version: string }}
  */
 const pkg = require(pkgPath)
-const pkgName = pkg.name.replace(/^@fe-cli\//, '')
+const pkgName = pkg.name.replace(/^@yaoyao1987\//, '')
 const currentVersion = pkg.version
 /**
  * @type {boolean}

@@ -11,6 +11,6 @@ fe cli
 
 | Package                  | description        | Version |
 | ------------------------ | ------------------ | ------- |
-| @fe-cli/create-app       | 搭建项目           | v0.0.0  |
-| @fe-cli/plugin-eslint    | 格式化代码         | v0.0.0  |
-| @fe-cli/eslint-config-fe | eslint config 设置 | v0.0.0  |
+| @yaoyao1987/create-app       | 搭建项目           | v0.0.0  |
+| @yaoyao1987/plugin-eslint    | 格式化代码         | v0.0.0  |
+| @yaoyao1987/eslint-config-fe | eslint config 设置 | v0.0.0  |

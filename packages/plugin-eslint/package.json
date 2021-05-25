@@ -1,5 +1,5 @@
 {
-  "name": "@fe-cli/plugin-eslint",
+  "name": "@yaoyao1987/plugin-eslint",
   "version": "1.0.0",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "main": "bin/index.js",
@@ -27,7 +27,6 @@
     "inquirer": "^8.1.0"
   },
   "devDependencies": {
-    "@fe-cli/eslint-config-fe": "^0.0.0",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "babel-eslint": "^10.1.0",
@@ -39,5 +38,6 @@
     "prettier": "^2.3.0",
     "typescript": "^4.2.4",
     "vue-eslint-parser": "^7.6.0"
-  }
+  },
+  "gitHead": "d216078acdf49c04d0867c35590bd1546275abc2"
 }

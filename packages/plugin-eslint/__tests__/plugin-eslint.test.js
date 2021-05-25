@@ -2,6 +2,6 @@
 
 const pluginEslint = require('..');
 
-describe('@fe-cli/plugin-eslint', () => {
+describe('@yaoyao1987/plugin-eslint', () => {
     it('needs tests');
 });
