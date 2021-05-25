@@ -182,8 +182,8 @@ async function init() {
   if (root !== cwd) {
     console.log(` cd ${path.relative(cwd, root)}`)
   }
-  console.log(` ${pkgManager === 'yarn' ? 'yarn' : 'npm install'}`)
-  console.log(` ${pkgManager === 'yarn' ? 'yarn dev' : 'npm run dev'}`)
+  console.log(`   ${pkgManager === 'yarn' ? 'yarn' : 'npm install'}`)
+  console.log(`   ${pkgManager === 'yarn' ? 'yarn dev' : 'npm run dev'}`)
   console.log()
 }
 
