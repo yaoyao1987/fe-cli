@@ -1,11 +1,20 @@
-# `sw-eslint-config-sw`
+# `eslint-config-sw`
 
-> TODO: description
+使用
 
-## Usage
+```sh
+npm install eslint-config-sw
 
+yarn install eslint-config-sw
 ```
-const eslintConfigFe = require('sw-eslint-config-sw');
 
-// TODO: DEMONSTRATE API
+在.eslintrc 文件中使用
+
+```js
+{
+  extends: [
+    'sw',
+    'sw/react'
+  ]
+}
 ```
