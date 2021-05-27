@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-console.log('test')
 const fs = require('fs')
 const path = require('path')
 const argv = require('minimist')(process.argv.slice(2))
@@ -67,7 +66,6 @@ const renameFiles = {
 
 async function init() {
   let targetDir = argv._[0]
-  console.log(`argv`, argv)
   if (!targetDir) {
     const { projectName } = await prompt({
       type: 'input',

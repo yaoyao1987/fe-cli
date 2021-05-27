@@ -7,8 +7,8 @@
 
 ## Packages
 
-| Package             | description        | Version |
-| ------------------- | ------------------ | ------- |
-| create-sw-app       | 搭建项目           | v0.0.0  |
-| sw-plugin-eslint    | 格式化代码         | v0.0.0  |
-| sw-eslint-config-fe | eslint config 设置 | v0.0.0  |
+| Package          | description        | Version |
+| ---------------- | ------------------ | ------- |
+| create-sw-app    | 搭建项目           | v0.0.0  |
+| sw-plugin-eslint | 格式化代码         | v0.0.0  |
+| eslint-config-sw | eslint config 设置 | v0.0.0  |
