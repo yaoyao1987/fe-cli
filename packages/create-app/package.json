@@ -1,6 +1,6 @@
 {
   "name": "create-sw-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "dependencies": {
     "enquirer": "^2.3.6",
     "minimist": "^1.2.5",
-    "sw-shared-utils": "^1.0.0"
+    "sw-shared-utils": "^1.0.1"
   },
   "gitHead": "b736bb1829a19d9cdae868729a03c431d134d3a3"
 }
