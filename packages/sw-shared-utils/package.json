@@ -1,0 +1,35 @@
+{
+  "name": "sw-shared-utils",
+  "version": "1.0.0",
+  "author": "yaoyao1987 <ly.yao@shunwang.com>",
+  "homepage": "https://github.com/yaoyao1987/fe-cli#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaoyao1987/fe-cli.git",
+    "directory": "packages/sw-shared-utils"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yaoyao1987/fe-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "execa": "^5.0.0",
+    "lru-cache": "^6.0.0",
+    "ora": "^5.4.0",
+    "semver": "^7.3.5"
+  }
+}

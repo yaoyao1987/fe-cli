@@ -8,7 +8,7 @@ program
   .version(packageJson.version, '-v --version')
 
 program
-  .command('eslint')
+  .command('lint')
   .description('Auto Config Eslint.')
   .action(() => {
     require('../lib')()

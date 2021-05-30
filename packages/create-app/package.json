@@ -22,9 +22,9 @@
   ],
   "scripts": {},
   "dependencies": {
-    "chalk": "^4.1.1",
     "enquirer": "^2.3.6",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "sw-shared-utils": "^1.0.0"
   },
   "gitHead": "b736bb1829a19d9cdae868729a03c431d134d3a3"
 }

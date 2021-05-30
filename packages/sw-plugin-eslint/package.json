@@ -8,12 +8,12 @@
     "lib"
   ],
   "bin": {
-    "sslint": "bin/index.js"
+    "lint": "bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yaoyao1987/fe-cli.git",
-    "directory": "packages/plugin-eslint"
+    "directory": "packages/sw-plugin-eslint"
   },
   "license": "MIT",
   "publishConfig": {
@@ -24,10 +24,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "cross-spawn": "^7.0.3",
-    "inquirer": "^8.1.0"
+    "inquirer": "^8.1.0",
+    "sw-shared-utils": "^1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.24.0",

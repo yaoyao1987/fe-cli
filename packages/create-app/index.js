@@ -232,7 +232,6 @@ function emptyDir(dir) {
     return;
   }
   for (const file of fs.readdirSync(dir)) {
-    console.log(`file`, file)
     const abs = path.resolve(dir, file)
     if (fs.lstatSync(abs).isDirectory) {
       emptyDir(abs)

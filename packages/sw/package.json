@@ -1,0 +1,42 @@
+{
+  "name": "sw-cli",
+  "version": "1.0.0",
+  "author": "yaoyao1987 <ly.yao@shunwang.com>",
+  "homepage": "https://github.com/yaoyao1987/fe-cli#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/sw.js",
+  "bin": {
+    "sw": "bin/sw.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaoyao1987/fe-cli.git",
+    "directory": "packages/sw"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yaoyao1987/fe-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.5",
+    "sw-plugin-eslint": "^1.0.5",
+    "sw-shared-utils": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}
