@@ -1,5 +1,5 @@
 {
-  "name": "sw-cli",
+  "name": "sws-cli",
   "version": "1.0.1",
   "author": "yaoyao1987 <ly.yao@shunwang.com>",
   "homepage": "https://github.com/yaoyao1987/fe-cli#readme",
@@ -38,5 +38,6 @@
   },
   "engines": {
     "node": ">=14.16.0"
-  }
+  },
+  "gitHead": "cf94f1387bfef529f9401abe6c2a081c26000ddf"
 }

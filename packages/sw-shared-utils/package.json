@@ -31,5 +31,6 @@
     "lru-cache": "^6.0.0",
     "ora": "^5.4.0",
     "semver": "^7.3.5"
-  }
+  },
+  "gitHead": "cf94f1387bfef529f9401abe6c2a081c26000ddf"
 }
