@@ -2,6 +2,7 @@
 
 参考：  
 [vite](https://github.com/vitejs/vite)  
+[code-lint](https://github.com/fantasticit/code-lint)
 [axb-lint](https://github.com/axuebin/axb-lint)  
 [eslint-config-me](https://github.com/LucaPeng/eslint-config-mfe)
 

@@ -1,10 +1,4 @@
-# `sw`
-
-安装
-
-```sh
-yarn add sws-cli -g
-```
+# `sw-plugin-lint`
 
 在项目中使用
 

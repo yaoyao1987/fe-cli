@@ -1,5 +1,6 @@
 [
   "env",
+  "exec",
   "logger",
   "spinner",
 ].forEach((m) => {

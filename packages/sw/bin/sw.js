@@ -26,7 +26,7 @@ program
 program
   .command('lint')
   .action(() => {
-    require('sw-plugin-eslint/lib')()
+    require('sw-plugin-lint/lib')()
   })
 
 program
